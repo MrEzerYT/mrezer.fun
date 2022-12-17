@@ -9,7 +9,7 @@ export default (pathName) => {
 
     function animation(timestamp) {
         if (lastTimestep + frameInterval < timestamp) {
-            document.title = `${steps[step++]} ELIAS | ${pathName}`;
+            document.title = `${steps[step++]} EZER | ${pathName}`;
 
             step %= steps.length;
             lastTimestep = timestamp;
